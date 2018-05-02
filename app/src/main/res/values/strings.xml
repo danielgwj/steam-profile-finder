@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Steam Profile Finder</string>
+    <string name="loading_error_message">Woops.  We couldn\'t complete your search.  Check your internet connection and try again.</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_color_key">pref_color</string>
+    <string name="pref_color_title">Color</string>
+    <string name="pref_color_default">black</string>
+</resources>

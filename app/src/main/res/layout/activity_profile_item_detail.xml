@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient_background">
+
+        <RelativeLayout
+            android:id="@+id/tracker_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_profile_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#e1e1e1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Username"
+        android:textColor="#e1e1e1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_persona_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#e1e1e1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Status"
+        android:textColor="#e1e1e1"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_persona_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#e1e1e1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/realname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Real Name"
+        android:textColor="#e1e1e1"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_real_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#e1e1e1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lastonline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Last Online"
+        android:textColor="#e1e1e1"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_log_off_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#e1e1e1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_loading_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/loading_error_message"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="32dp"
+        android:visibility="invisible" />
+
+</LinearLayout>
